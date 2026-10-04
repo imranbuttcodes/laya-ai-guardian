@@ -9,7 +9,7 @@
 AI Guardian demonstrates how to build lightning-fast, structured AI guardrails without relying on slow, autoregressive LLMs. By utilizing Laya, the application simultaneously evaluates text across five distinct axes in a single inference pass (~35ms).
 
 <p align="center">
-  <img src="Laya-AI_gaudian_Screenshots/1_.png" alt="AI Guardian Dashboard - Safe Example" width="800"/>
+  <img src="Laya-AI_guardian_Screenshots/1_.png" alt="AI Guardian Dashboard - Safe Example" width="800"/>
 </p>
 
 ## Quick Start
