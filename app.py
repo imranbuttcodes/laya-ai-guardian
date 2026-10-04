@@ -41,7 +41,7 @@ QUESTIONS = {
     },
     "requires_action": {
         "type": "noul",
-        "instructions": "Does this content require immediate human review?",
+        "instructions": "Does this text contain threats, spam, or harassment that require action?",
     },
     "sentiment": {
         "type": "choice",
@@ -117,7 +117,7 @@ if st.button("⚡ Analyze", type="primary") and text:
     else:
         tidx = 0
         choice_str = "harmless"
-    c2.metric("2. Threat Level (Score)", f"{choice_str.replace('_', ' ').title()} ({tidx}/4)")
+    c2.metric("2. Threat Level (Score)", choice_str.replace('_', ' ').title())
     
     # 3. Requires Action
     act = results.get("requires_action", {})
